@@ -13,10 +13,6 @@ class ResultViewController: UIViewController {
     @IBOutlet var resultpicLabel: UILabel!
     
     var answers: [Answer]!
-    // 1. Избавиться от кнопки возврата назад на экране результатов
-    // 2. Передать массив с ответами на экран с результатами
-    // 3. Определить наиболее часто встречающийся тип животного
-    // 4. Отобразить результаты в соответствии с этим животным
 
     override func viewDidLoad() {
         super.viewDidLoad()
